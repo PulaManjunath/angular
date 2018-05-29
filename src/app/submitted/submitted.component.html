@@ -1,3 +1,27 @@
-<p>
-  submitted works!
-</p>
+<div style="align-items: center">
+  <table>
+    <thead>
+      <tr>
+        <th>Display Item</th>
+        <th>Business Owners</th>
+        <th>Reference</th>
+        <th>Receipt Date</th>
+        <th>Source</th>
+        <th>Product</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let client of clients">
+        <td>
+          <a routerLink="/completedByDate">{{client.view}}</a>
+        </td>
+        <td>{{client.owner}}</td>
+        <td>{{client.reference}}</td>
+        <td>{{client.receiptDate}}</td>
+        <td>{{client.subject}}</td>
+        <td>{{client.source}}</td>
+        <td>{{client.product}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

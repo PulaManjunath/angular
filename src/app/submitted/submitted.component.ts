@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { MatPaginator, MatTableDataSource } from '@angular/material';
 
 @Component({
   selector: 'app-submitted',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SubmittedComponent implements OnInit {
 
-  constructor() { }
+  clients = [{
+    "view": "view",
+    "owner": "David",
+    "reference": "1234",
+    "receiptDate": "01-01-2018",
+    "subject": "Implementation of the script Standard",
+    "source": "CMS",
+    "product": "MA,MAPD"
+
+  }];
 
   ngOnInit() {
-  }
 
+  }
 }

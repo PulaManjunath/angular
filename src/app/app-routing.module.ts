@@ -20,8 +20,7 @@ const routes: Routes = [
     },
     {
         path: 'cms', component: CmsComponent
-    }
-    ,
+    },
     {
         path: 'submittedToBOwner', component: SubmittedComponent
     }
@@ -40,6 +39,10 @@ const routes: Routes = [
     ,
     {
         path: 'completedByDate', component: CompletiondateComponent
+    }
+    ,
+    {
+        path: 'fyiSubmittedToBOwner', component: SubmittedComponent
     }
 ];
 
