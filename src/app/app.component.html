@@ -1,11 +1,16 @@
 <div class="container">
 
-  <header>
-    <app-menu-bar></app-menu-bar>
-  </header>
-  <nav>
-    <app-side-bar></app-side-bar>
-  </nav>
+  <div>
+    <header>
+      <app-menu-bar></app-menu-bar>
+    </header>
+  </div>
+  <div>
+    <nav style="border: 1px solid black;">
+      <app-side-bar></app-side-bar>
+    </nav>
+  </div>
+
   <div style="position:absolute; vertical-align:center">
     <article>
       <router-outlet></router-outlet>
