@@ -44,6 +44,11 @@ const routes: Routes = [
     {
         path: 'fyiSubmittedToBOwner', component: SubmittedComponent
     }
+    ,
+    {
+        path: 'search', component: DuedateComponent
+    }
+    
 ];
 
 @NgModule({
