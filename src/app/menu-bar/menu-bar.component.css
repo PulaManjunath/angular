@@ -1,5 +1,9 @@
+.menubar{
+    background-color: rgb(179, 169, 169);
+    overflow: hidden;
+}
 .topnav {
-    background-color: #333;
+    background-color: rgb(179, 169, 169);
     overflow: hidden;
 }
 
@@ -8,9 +12,9 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 6px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 /* Change the color of links on hover */
